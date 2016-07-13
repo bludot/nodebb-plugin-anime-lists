@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-anime-lists",
+  "version": "1.0.0",
+  "description": "A anime list manager for NodeBB",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bludot/nodebb-plugin-anime-lists"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "markdown"
+  ],
+  "author": "bludot <admin@bludotos.com>",
+  "bugs": {
+    "url": "https://github.com/bludot/nodebb-plugin-anime-lists/issues"
+  },
+  "dependencies": {},
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+}

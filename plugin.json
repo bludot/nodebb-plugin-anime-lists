@@ -1,0 +1,33 @@
+{
+    "id": "nodebb-plugin-anime-lists",
+    "name": "Anime lists plugin",
+    "description": "An extended Markdown parser for NodeBB",
+    "url": "https://github.com/bludot/nodebb-plugin-anime-lists",
+    "library": "./library.js",
+    "hooks": [
+        { "hook": "filter:admin.header.build", "method": "admin.menu" },
+        {
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:hotswap.prepare", "method": "prepare"
+		},
+		{
+			"hook": "filter:header.build", "method": "addNavigation"
+		}
+    ],
+    "less": [
+        "static/style.less"
+    ],
+    "css": [
+        "static/style.css"
+    ],
+    "scripts": [
+        "static/lib/main.js",
+        "static/lib/jsmodal-1.0d.min.js"
+    ],
+    "staticDirs": {
+        "styles": "./static"
+    },
+    "templates": "./templates"
+}
