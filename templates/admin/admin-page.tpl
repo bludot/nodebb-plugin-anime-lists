@@ -32,7 +32,7 @@
 
 
   <div class="grid">
-      <div class="grid-item">
+      <div class="grid-item" id="add">
       <div class="inner">
 
         <div class="image" style="cursor:pointer;">
@@ -59,9 +59,6 @@
   </div>
   </div>
         </div>
-        <!-- BEGIN marks -->
-
-        <!-- END marks -->
     </div>
 </div>
 <div id="add_new" class="modal">
