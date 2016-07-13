@@ -17,7 +17,8 @@
 		}
     ],
     "less": [
-        "static/style.less"
+        "static/style.less",
+        "static/style.css"
     ],
     "css": [
         "static/style.css"
