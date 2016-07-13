@@ -28,8 +28,7 @@
 
     ],
     "acpScripts": [
-        "./static/lib/jsmodal-1.0d.min.js",
-        "./static/lib/masonry.pkgd.min.js"
+        "./static/lib/jsmodal-1.0d.min.js"
     ],
     "staticDirs": {
         "styles": "./static"
