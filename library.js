@@ -333,7 +333,7 @@ var Markdown_ext = {
 
     addAdminNavigation: function(header, callback) {
         header.plugins.push({
-            route: '/admin-page',
+            route: '/anime-list/admin-page',
             icon: 'fa-mobile',
             name: 'anime-list'
         });
@@ -343,7 +343,7 @@ var Markdown_ext = {
     admin: {
         menu: function(custom_header, callback) {
             custom_header.plugins.push({
-                "route": '/admin-page',
+                "route": '/anime-list/admin-page',
                 "icon": 'fa-edit',
                 "name": 'anime-list'
             });
