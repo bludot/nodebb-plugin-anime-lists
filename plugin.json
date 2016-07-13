@@ -17,13 +17,16 @@
 		}
     ],
     "less": [
-        "./static/style.less"
+        "static/style.less"
     ],
     "css": [
-        "./static/style.css"
+        "static/style.css"
     ],
     "scripts": [
-        "./static/lib/main.js",
+        "static/lib/main.js"
+
+    ],
+    "acpScripts": [
         "./static/lib/jsmodal-1.0d.min.js",
         "./static/lib/masonry.pkgd.min.js"
     ],
