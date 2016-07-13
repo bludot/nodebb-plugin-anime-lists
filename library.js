@@ -324,7 +324,7 @@ var getMarks = function(callback) {
 
 var renderAdmin = function(req, res) {
 	getMarks(function(err, data) {
-		res.render('admin/admin-page', {
+		res.render('admin/anime-list/admin-page', {
 			data: data
 		});
 	});
