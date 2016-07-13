@@ -114,7 +114,6 @@
 <button id="save" class="floating-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
     <i class="material-icons">save</i>
 </button>
-<script src="//npmcdn.com/masonry-layout@4.0.0/dist/masonry.pkgd.min.js"></script>
 
 
 <script>
