@@ -333,7 +333,7 @@ var Markdown_ext = {
 
     addAdminNavigation: function(header, callback) {
         header.plugins.push({
-            route: '/admin-page',
+            route: '/anime-list/admin-page',
             icon: 'fa-mobile',
             name: 'anime-list'
         });
@@ -343,7 +343,7 @@ var Markdown_ext = {
     admin: {
         menu: function(custom_header, callback) {
             custom_header.plugins.push({
-                "route": '/admin-page',
+                "route": '/anime-list/admin-page',
                 "icon": 'fa-edit',
                 "name": 'anime-list'
             });
@@ -355,8 +355,8 @@ var Markdown_ext = {
         var app = params.router,
             middleware = params.middleware;
 
-        app.get('/admin/admin-page', middleware.admin.buildHeader, renderAdmin);
-        app.get('/api/admin/admin-page', renderAdmin);
+        app.get('/admin/anime-list/admin-page', middleware.admin.buildHeader, renderAdmin);
+        app.get('/api/admin/anime-list/admin-page', renderAdmin);
 
         var SocketAdmin = module.parent.require('./socket.io/admin');
         SocketAdmin.settings.saveMarks = function(socket, data, callback) {
